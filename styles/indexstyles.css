@@ -15,7 +15,7 @@ h2{
  
 body{
     display: grid;
-    grid-template-rows:  80px 630px 530px 150px 0px 350px ;
+    grid-template-rows:  80px 650px 550px 170px 10px 350px ;
     background-color: whitesmoke;
 }  
 
@@ -93,10 +93,11 @@ body{
 .background-img{
     height: 85vh;
     width: 100%;
-    background-image: linear-gradient(rgba(231, 222, 222, 0.627) 0%,rgba(2, 2, 7, 0.88));
+    background-image: linear-gradient(rgba(231, 222, 222, 0.627) 0%,rgba(2, 2, 7, 0.88)), url('/img/Front-Page-lg.mp4');
     justify-content: flex-start;
     align-items: flex-end;
-    background-size: auto;
+    background-position: 0 0, 50%, 70%;
+    background-size: auto, cover;
     background-repeat: no-repeat;
     display: flex;
     margin-bottom: 0px;
@@ -278,8 +279,6 @@ body{
         z-index: -1;
         height: 42vh;
     }
-
-
 }
 
 @media (min-width: 812px){
@@ -336,7 +335,7 @@ body{
     body{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows:  80px 630px 530px 200px 0px 500px ;
+        grid-template-rows:  80px 630px 530px 200px 0px 600px ;
         background-color: whitesmoke;
     }  
 
@@ -392,17 +391,6 @@ body{
 
 @media (min-width: 1200px){
 
-    .background-img{
-        height: 95vh;
-        width: 100%;
-        background-image: linear-gradient(rgba(231, 222, 222, 0.627) 0%,rgba(2, 2, 7, 0.88));
-        justify-content: flex-start;
-        align-items: flex-end;
-        background-size: auto;
-        background-repeat: no-repeat;
-        display: flex;
-        margin-bottom: 0px;
-    }
 
     body{
         display: grid;
@@ -415,7 +403,7 @@ body{
     #line2{
         background-image: linear-gradient(whitesmoke,  rgba(60, 171, 235, 0.774));
         z-index: -1;
-        height:75vh;
+        height:80vh;
     }
 
 
@@ -474,12 +462,4 @@ body{
 
 }
 
-@media (min-width: 1200px){
 
-    #line2{
-        background-image: linear-gradient(whitesmoke,  rgba(60, 171, 235, 0.774));
-        z-index: -1;
-        height:80vh;
-    }
-
-}
