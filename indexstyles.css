@@ -266,25 +266,32 @@ body{
 
 @media (min-width: 650px){
     
-
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows:  80px 630px 530px 250px 10px 450px ;
+        background-color: whitesmoke;
+    }  
+  
     #line2{
         background-image: linear-gradient(whitesmoke,  rgba(60, 171, 235, 0.774));
         z-index: -1;
-        height: 40vh;
+        height: 42vh;
     }
 
     .container{
         width: 14em;
     }
+
 }
 
-@media (min-width: 800px){
+@media (min-width: 812px){
 
      
     body{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows:  80px 630px 530px 200px 0px 450px ;
+        grid-template-rows:  80px 630px 530px 270px 0px 450px ;
         background-color: whitesmoke;
     }  
   
@@ -309,7 +316,7 @@ body{
     
 }
 
-@media (min-width: 900px){
+@media (min-width: 875px){
 
     .container{
         width: 25em;
