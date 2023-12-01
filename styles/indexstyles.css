@@ -15,8 +15,7 @@ h2{
  
 body{
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows:  80px 630px 530px 200px 0px 350px ;
+    grid-template-rows:  80px 630px 530px 150px 0px 350px ;
     background-color: whitesmoke;
 }  
 
@@ -261,30 +260,35 @@ body{
     padding-right: 40px;
     text-align: justify;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 
 @media (min-width: 650px){
     
-
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows:  80px 630px 530px 250px 10px 450px ;
+        background-color: whitesmoke;
+    }  
+  
     #line2{
         background-image: linear-gradient(whitesmoke,  rgba(60, 171, 235, 0.774));
         z-index: -1;
-        height: 40vh;
+        height: 42vh;
     }
 
-    .container{
-        width: 14em;
-    }
+
 }
 
-@media (min-width: 800px){
+@media (min-width: 812px){
 
      
     body{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows:  80px 630px 530px 200px 0px 450px ;
+        grid-template-rows:  80px 630px 530px 270px 0px 450px ;
         background-color: whitesmoke;
     }  
   
@@ -295,9 +299,7 @@ body{
         height:50vh;
     }
 
-    .container{
-        width: 23em;
-    }
+
 
     .image-booth{
         padding-left: 2.5em;
@@ -309,11 +311,7 @@ body{
     
 }
 
-@media (min-width: 900px){
-
-    .container{
-        width: 25em;
-    }
+@media (min-width: 875px){
 
     body{
         display: grid;
@@ -333,9 +331,7 @@ body{
 }
 
 @media (min-width: 1000px){
-    .container{
-        width: 27em;
-    }
+  
 
     body{
         display: grid;
@@ -395,9 +391,6 @@ body{
 }
 
 @media (min-width: 1200px){
-    .container{
-        width: 28em;
-    }
 
     .background-img{
         height: 95vh;
@@ -414,7 +407,7 @@ body{
     body{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows:  80px 700px 530px 200px 0px 600px ;
+        grid-template-rows:  80px 700px 530px 200px 0px 700px ;
         background-color: whitesmoke;
     }  
 
