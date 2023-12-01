@@ -1,0 +1,131 @@
+body{
+    display: grid;
+    padding: 40px;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 25px;
+    grid-template-rows: 80px 200px 450px 1fr;
+}
+
+header{
+    grid-row: 1/2;
+    grid-column: 1/3;
+}
+
+.contact-content{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.form-content{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.form-text{
+    grid-row: 2/3;
+}
+
+.container{
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+/*contact content*/
+
+.contact-content{
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+#contact-text{
+    font-size: 120%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: left;
+    grid-row: 2/3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fill-form{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    grid-row: 3/4;
+}
+/* form content */
+
+.form-content{
+    text-align: center;
+}
+
+#form-box{
+    width: 100%;
+}
+
+/*contact form */
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+
+  input[type=submit] {
+    background-color: rgb(60, 171, 235);
+    padding: 16px;
+    font-size: 160%;
+    border-radius: 6%;
+    border: none;
+    color: white;
+    font-family: "Bebas Neue";
+    letter-spacing: 4px;
+    font-weight: lighter;
+    transition: background-color 400ms ease;
+    text-decoration: none;
+}
+  
+  input[type=submit]:hover {
+    background-color: rgb(46, 45, 45);
+  }
+ 
+/* ADD IN THANK YOU PAGE!!!*/
+
+  h2{
+    padding: 0px;
+    margin: 2px;
+  }
+
+
+@media (min-width: 650px){
+    .container{
+        width: 15em;
+    }
+
+}
+
+
+@media (min-width: 800px){
+
+    .container{
+        width: 21em;
+    }
+
+}

@@ -1,0 +1,49 @@
+/* colors: rgb(150, 206, 240); */
+
+
+.body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Bebas Neue";
+    grid-template-rows: 80px 1fr 1fr 1fr 1fr ;
+}
+
+#wheely{
+    width: 7em;
+    margin-top: -8%;
+}
+
+
+content{
+    justify-content: center;
+    text-align: center;
+    grid-row: 3/4;
+}
+
+.choice_link{
+    text-decoration: none;
+
+}
+
+/* Gallery */ 
+
+.rowsgal{
+    margin-top: 180px;
+    row-gap: 5px;
+    display: grid;
+    padding: 10px;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.im1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+
+
+.imgsg{
+    width: 98%;
+    transition: .3s ease
+}

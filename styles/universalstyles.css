@@ -1,0 +1,91 @@
+h1{
+    font-size: 230%;
+    font-family: "Bebas Neue";
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    letter-spacing: 4px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+h2{
+    font-size: 170%;
+    font-family: "Bebas Neue";
+    letter-spacing: 2px;
+    text-align: justify;
+    font-weight: lighter;
+}
+
+/* header */
+header{
+    max-width: 900px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+#wheely{
+    width: 7em;
+    margin-top: -8%;
+}
+
+
+.container{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    height: 100px;
+    width: 8em;
+    font-size: 120%;
+    display: flex;    
+    font-weight: lighter;
+    font-family: "Bebas Neue";
+    align-items: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-position-x: center;
+    margin-left: 200px;
+    background-repeat: no-repeat;
+    letter-spacing: 2px;
+    justify-content: center;
+    color: black;
+    z-index: 1000;
+    position: absolute;
+  
+}
+
+.flex-item {
+    display: flex;
+    font-size: 100%;
+    margin-left: .5em ;
+    border-radius: 6%;
+    margin-right: .5em;
+    padding-left: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.one, .two, .three{
+    background-color: rgb(46, 45, 45);
+    padding: 18px;
+    background-size: 200%;
+    background-position: 0%;
+    color: white;
+    font-family: "Bebas Neue";
+    letter-spacing: 4px;
+    transition: background-color 400ms ease;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.one:hover, .two:hover, .three:hover{
+    background-color:  rgb(60, 171, 235);
+    color:black;
+}
