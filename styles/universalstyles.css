@@ -85,8 +85,13 @@ header{
 
 footer{
     display: grid;
-    background-color: rgb(60, 171, 235);
+    background-image: linear-gradient(whitesmoke,  rgba(60, 171, 235, 0.774));
     grid-column: 1fr 1fr 1fr;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
 }
 .foot{
     text-align: center;
@@ -94,8 +99,13 @@ footer{
 
 #foot-text{
     text-align: center;
-    margin-top: 0px;
     font-size: 60%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 0px;
+    margin-top: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#foot-wheely{
+    width: 7em;
+    margin-top: 5px;
 }

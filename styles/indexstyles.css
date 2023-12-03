@@ -15,7 +15,7 @@ h2{
  
 body{
     display: grid;
-    grid-template-rows:  80px 650px 550px 170px 20px 350px 600px 85px;
+    grid-template-rows:  80px 650px 550px 170px 250px 700px 85px;
     background-color: whitesmoke;
 }  
 
@@ -36,16 +36,13 @@ body{
     grid-row: 5/6;
 }
 
-#line2{
+.about{
+    padding-top: 80px;
     grid-row: 6/7;
 }
 
-.about{
-    grid-row: 7/8;
-}
-
 footer{
-    grid-row: 8/9;
+    grid-row: 7/8;
 }
 
 
@@ -159,15 +156,16 @@ footer{
 /*image booth*/
 
 .image-booth{
-    padding-left: 1.5em;
+    background-color: rgba(60, 171, 235, 0.584);
     display: grid;
-    column-gap: 5px;
+    padding-left: 1em;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
 .imgs{
-    width: 85%;
+    width: 80%;
+    padding: 10px;
     transition: .3s ease;
 }
 
@@ -188,13 +186,6 @@ footer{
     grid-column: 3/4 ;
     grid-row: 1/2;
 }
-
-#line2{
-    background-image: linear-gradient(whitesmoke,  rgba(60, 171, 235, 0.774));
-    z-index: -1;
-    height: 35vh;
-}
-
 
 /* Quote Button */ 
 
@@ -273,15 +264,18 @@ footer{
     body{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows:  80px 630px 530px 250px 10px 450px ;
+        grid-template-rows:  80px 650px 550px 170px 300px 700px 85px;
         background-color: whitesmoke;
     }  
   
-    #line2{
-        background-image: linear-gradient(whitesmoke,  rgba(60, 171, 235, 0.774));
-        z-index: -1;
-        height: 42vh;
+    .image-booth{
+        background-color: rgba(60, 171, 235, 0.584);
+        display: grid;
+        padding-left: 1.5em;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
+   
 }
 
 @media (min-width: 812px){
@@ -290,7 +284,7 @@ footer{
     body{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows:  80px 630px 530px 270px 0px 450px ;
+        grid-template-rows:  80px 650px 550px 170px 350px 700px 85px;
         background-color: whitesmoke;
     }  
   
@@ -318,7 +312,7 @@ footer{
     body{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows:  80px 630px 530px 200px 0px 500px ;
+        grid-template-rows:  80px 650px 550px 170px 370px 700px 85px;
         background-color: whitesmoke;
     }  
 
@@ -338,22 +332,17 @@ footer{
     body{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows:  80px 630px 530px 200px 0px 600px ;
+        grid-template-rows:  80px 650px 550px 170px 450px 500px 85px;
         background-color: whitesmoke;
     }  
 
-
-    #line2{
-        background-image: linear-gradient(whitesmoke,  rgba(60, 171, 235, 0.774));
-        z-index: -1;
-        height:65vh;
-    }
 
 
     .about{
         display: grid;
         grid-template-rows: 1fr;
         padding: 50px;
+        margin-top: 50px;
         grid-template-columns: 100px 300px 1fr 100px;
     }
 
@@ -398,16 +387,9 @@ footer{
     body{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows:  80px 700px 530px 200px 0px 700px ;
+        grid-template-rows:  80px 650px 550px 170px 500px 600px 85px;
         background-color: whitesmoke;
     }  
-
-
-    #line2{
-        background-image: linear-gradient(whitesmoke,  rgba(60, 171, 235, 0.774));
-        z-index: -1;
-        height:80vh;
-    }
 
 
     .about{
