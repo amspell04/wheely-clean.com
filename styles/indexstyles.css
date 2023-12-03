@@ -19,6 +19,9 @@ body{
     background-color: whitesmoke;
 }  
 
+header{
+    grid-row: 1/2;
+}
 
 .movie-container{
     grid-row: 2/3;
