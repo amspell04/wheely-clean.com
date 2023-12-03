@@ -82,3 +82,20 @@ header{
     color:black;
 }
 */
+
+footer{
+    display: grid;
+    background-color: rgb(60, 171, 235);
+    grid-column: 1fr 1fr 1fr;
+}
+.foot{
+    text-align: center;
+}
+
+#foot-text{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 60%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 0px;
+}
