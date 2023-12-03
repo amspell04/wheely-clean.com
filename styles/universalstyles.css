@@ -21,6 +21,8 @@ h2{
 header{
     padding-top: 8px;
     padding-bottom: 5px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
     position: absolute;
     top: 0%;
     left: 0%;
@@ -34,26 +36,19 @@ header{
 
 
 .container{
-    padding-top: 20px;
-    padding-bottom: 15px;
-    -ms-flex-align: center;
-    font-size: 120%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;  
-    font-weight: lighter;
-    font-family: "Bebas Neue";
+    padding-top: 5px;
+    grid-column: 2/3;
+    display:grid;
+    text-align: center;
     align-items: center;
-    letter-spacing: 2px;
-    justify-content: center;
-    color: black;
-    z-index: 1000;
-    position: absolute;
-  
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .one, .two, .three{
+    margin:10px;
     background-color: rgb(46, 45, 45);
     padding: 18px;
+    font-size: 120%;
     border-radius: 5px;
     background-size: 200%;
     background-position: 0%;
@@ -61,7 +56,6 @@ header{
     font-family: "Bebas Neue";
     letter-spacing: 4px;
     transition: background-color 400ms ease;
-    font-weight: bolder;
     text-decoration: none;
 }
 
@@ -70,9 +64,11 @@ header{
     color:black;
 }
 
-.brand{
-    margin-left: 20px;
+.one:focus, .two:focus, .three:focus{
+    background-color:  rgb(60, 171, 235);
+    color:black;
 }
+
 
 footer{
     display: grid;
