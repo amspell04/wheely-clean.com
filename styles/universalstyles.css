@@ -32,14 +32,15 @@ header{
     margin-top: -8%;
 }
 
-/*
+
 .container{
     padding-top: 20px;
     padding-bottom: 15px;
     height: 100px;
     -ms-flex-align: center;
     font-size: 120%;
-    display: flex;    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;  
     font-weight: lighter;
     font-family: "Bebas Neue";
     align-items: center;
@@ -81,7 +82,7 @@ header{
     background-color:  rgb(60, 171, 235);
     color:black;
 }
-*/
+
 
 footer{
     display: grid;
