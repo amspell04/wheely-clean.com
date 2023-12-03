@@ -24,16 +24,13 @@ header{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     position: absolute;
-    top: 0%;
-    left: 0%;
-    right: 0%;
+ 
 }
 
 #wheely{
-    width: 7em;
+    width: 120px;
     margin-top: -8%;
 }
-
 
 .container{
     padding-top: 5px;
@@ -50,8 +47,6 @@ header{
     padding: 18px;
     font-size: 120%;
     border-radius: 5px;
-    background-size: 200%;
-    background-position: 0%;
     color: white;
     font-family: "Bebas Neue";
     letter-spacing: 4px;
