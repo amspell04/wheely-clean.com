@@ -82,7 +82,7 @@ footer{
     text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
-    color:  #3cabeb;
+    color:  #1376AE;
 }
 
 
@@ -111,7 +111,7 @@ footer{
     padding: 18px;
     font-size: 180%;
     border-radius: 6%;
-    color: white;
+    color: black;
     font-family: "Bebas Neue";
     letter-spacing: 4px;
     font-weight: lighter;
@@ -120,7 +120,8 @@ footer{
 }
 
 .btn2:hover{
-    background-color: rgb(46, 45, 45);
+    background-color: black;
+    color:whitesmoke;
 }
 
 @media (min-width: 650px){
@@ -148,7 +149,7 @@ footer{
         text-align: center;
         justify-content: center;
         align-items: center;
-        background-color: rgb(21, 21, 21);
+        background-color: #151515;
         padding: 15px 18px;
         font-size: 100%;
         border-radius: 5px;

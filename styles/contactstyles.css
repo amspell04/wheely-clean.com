@@ -5,6 +5,10 @@ body{
     grid-template-rows: 80px 1fr 1fr 85px;
 }
 
+h1{
+    margin-bottom: 20px;
+}
+
 header{
     grid-row: 1/2;
     grid-column: 1/3;
@@ -13,7 +17,7 @@ header{
 .contact-content{
     padding-left: 40px;
     padding-right: 40px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 80px;
     grid-row: 3/4;
     grid-column: 1/3;
@@ -41,6 +45,7 @@ footer{
     grid-template-rows: 80px 1fr;
 }
 
+
 #contact-text{
     font-size: 120%;
     margin-bottom: 0;
@@ -53,6 +58,7 @@ footer{
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top: 40px;
 }
 /* form content */
 
@@ -62,10 +68,19 @@ footer{
 
 #form-box{
     width: 100%;
+    border: none;
 }
 
 /*contact form */
 
+label{
+    margin-top: 20px;
+    font-size: 170%;
+    font-family: "Bebas Neue";
+    letter-spacing: 2px;
+    text-align: left;
+    font-weight: lighter;
+}
 
 
 input[type=text], select, textarea {
@@ -97,7 +112,7 @@ input[type=email], select, textarea {
     font-size: 160%;
     border-radius: 6%;
     border: none;
-    color: white;
+    color: black;
     font-family: "Bebas Neue";
     letter-spacing: 4px;
     font-weight: lighter;
@@ -106,7 +121,8 @@ input[type=email], select, textarea {
 }
   
   input[type=submit]:hover {
-    background-color: rgb(46, 45, 45);
+    background-color: black;
+    color:whitesmoke;
   }
  
 /* ADD IN THANK YOU PAGE!!!*/

@@ -70,7 +70,7 @@ h2{
     padding: 12px;
     font-size: 80%;
     border-radius: 5px;
-    color: white;
+    color: #f5f5f5;
     letter-spacing: 1px;
     font-family: "Bebas Neue";
     transition: background-color 400ms ease;
@@ -83,7 +83,7 @@ h2{
 }
 
 .one:focus, .two:focus, .three:focus{
-    background-color: rgb(60, 171, 235);
+    background-color: #3cabeb;
     color:black;
 }
 
@@ -91,7 +91,7 @@ h2{
 footer{
     display: grid;
     background-image: linear-gradient(whitesmoke,  rgba(60, 171, 235, 0.774));
-    grid-column: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     height: 20vh;
     align-items: center;
     justify-content: center;
@@ -100,6 +100,7 @@ footer{
 }
 .foot{
     text-align: center;
+    grid-column: 2/3;
 }
 
 #foot-text{
