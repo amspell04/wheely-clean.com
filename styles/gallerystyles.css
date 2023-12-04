@@ -48,3 +48,32 @@ footer{
     width: 98%;
     transition: .3s ease
 }
+
+@media (min-width: 650px){
+
+    .container{
+        text-align: center;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        column-gap: 6px;
+        grid-template-columns: 90px 92px 92px 92px;
+        z-index: 100;
+    }
+
+    .one, .two, .three{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(21, 21, 21);
+        padding: 15px 18px;
+        font-size: 100%;
+        border-radius: 5px;
+        color: white;
+        letter-spacing: 1px;
+        font-family: "Bebas Neue";
+        transition: background-color 400ms ease;
+        text-decoration: none;
+    }
+   
+}

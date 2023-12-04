@@ -79,7 +79,7 @@ footer{
 
 .background-img{
     grid-column: 1/4;
-    height: 95vh;
+    height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(231, 222, 222, 0.627) 0%,rgba(2, 2, 7, 0.88)), url('/img/Front-Page-lg.mp4');
     justify-content: flex-start;
@@ -259,7 +259,30 @@ footer{
         background-color: whitesmoke;
     }  
   
+    .container{
+        text-align: center;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        column-gap: 6px;
+        grid-template-columns: 90px 92px 92px 92px;
+        z-index: 100;
+    }
 
+    .one, .two, .three{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(21, 21, 21);
+        padding: 15px 18px;
+        font-size: 100%;
+        border-radius: 5px;
+        color: white;
+        letter-spacing: 1px;
+        font-family: "Bebas Neue";
+        transition: background-color 400ms ease;
+        text-decoration: none;
+    }
    
 }
 
