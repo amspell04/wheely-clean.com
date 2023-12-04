@@ -38,7 +38,7 @@ h2{
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: 10px 1fr 20% 20% 20%;
+    grid-template-columns: 19% 20% 20% 20%;
     z-index: 100;
 }
 
@@ -46,15 +46,15 @@ h2{
     grid-column: 1/2;
 }
 .one{
-    grid-column: 3/4;
+    grid-column: 2/3;
 }
 
 .two{
-    grid-column: 4/5;
+    grid-column: 3/4;
 }
 
 .three{
-    grid-column: 5/6;
+    grid-column: 4/5;
 }
 
 .one, .two, .three{
