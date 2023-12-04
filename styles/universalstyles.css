@@ -25,8 +25,8 @@ h2{
 
 
 #wheely{
-    width: 120px;
-    margin-right: 0px;
+    width: 100px;
+    margin-right: 10px;
     padding-right: 0px;
     margin-left: 0px;
     padding-bottom: 10px;
@@ -38,7 +38,8 @@ h2{
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: 19% 20% 20% 20%;
+    column-gap: 6px;
+    grid-template-columns: 90px 92px 92px 92px;
     z-index: 100;
 }
 
@@ -58,11 +59,12 @@ h2{
 }
 
 .one, .two, .three{
-    margin-left:10px;
-    background-color: rgb(21, 21, 21);
-    padding: 16px 18px;
     text-align: center;
-    font-size: 120%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21, 21, 21);
+    padding: 16px 20px;
+    font-size: 110%;
     border-radius: 5px;
     color: white;
     letter-spacing: 1px;
