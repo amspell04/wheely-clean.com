@@ -5,6 +5,7 @@
 body{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
     grid-template-rows: 85px 100px 1fr 200px 85px;
 }
 
@@ -21,15 +22,23 @@ header{
 }
 
 .ext{
-    margin: 30px;
+    padding-right: 20px;
     grid-row: 3/4;
     grid-column: 2/3;
+    display: grid;
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr;
+}
+
+.serv-one{
+    grid-row: 2/3;
 }
 
 .int{
-    margin: 30px;
+    padding-left: 40px;
     grid-row: 3/4;
     grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr;
 }
 
 .button{
@@ -115,6 +124,15 @@ footer{
 }
 
 @media (min-width: 650px){
+
+
+    
+    body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 60px;
+        grid-template-rows: 85px 100px 1fr 200px 85px;
+    }
 
     .container{
         text-align: center;
