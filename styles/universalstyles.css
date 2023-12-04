@@ -35,13 +35,9 @@ h2{
     grid-column: 1/2;
 }
 
-header{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 
 .container{
-    grid-column: 1/2;
+    width: 80%;
     text-align: left;
     display: grid;
     align-items: center;
