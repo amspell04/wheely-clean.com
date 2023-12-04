@@ -95,9 +95,8 @@ footer{
     background-size: auto, cover;
     background-repeat: no-repeat;
     display: flex;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding-top: 0px;
+    margin:0;
+    padding:0;
 }
 
 
@@ -267,6 +266,7 @@ footer{
     }  
   
     .container{
+        width: 100%;
         text-align: center;
         display: grid;
         align-items: center;
