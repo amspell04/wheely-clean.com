@@ -25,7 +25,7 @@ h2{
 
 
 #wheely{
-    width: 120px;
+    width: 100px;
     margin-right: 0px;
     padding-right: 0px;
     margin-left: 0px;
@@ -58,6 +58,7 @@ h2{
     margin-left:10px;
     background-color: rgb(21, 21, 21);
     padding: 16px;
+    text-align: center;
     font-size: 120%;
     border-radius: 5px;
     color: white;
