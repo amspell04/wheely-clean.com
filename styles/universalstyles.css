@@ -22,30 +22,23 @@ h2{
 }
 
 /* header */
-header{
-    display:grid;
-    grid-column: 20px 1fr 1fr;
-    width: 100%;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    align-items: center;
-    position: absolute;
-}
+
 
 #wheely{
-    width: 130px;
+    width: 120px;
+    margin-right: 0px;
+    padding-right: 0px;
     margin-left: 0px;
     padding-bottom: 10px;
     grid-column: 1/2;
 }
 
 .container{
-    grid-column: 2/3;
     text-align: center;
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 20% 20% 20% 20%;
     z-index: 100;
 }
 
@@ -68,8 +61,8 @@ header{
     font-size: 120%;
     border-radius: 5px;
     color: white;
+    letter-spacing: 1px;
     font-family: "Bebas Neue";
-    letter-spacing: 4px;
     transition: background-color 400ms ease;
     text-decoration: none;
 }
