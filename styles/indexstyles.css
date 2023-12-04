@@ -16,13 +16,14 @@ h2{
 body{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 30px;
     grid-template-rows:  30px 780px 550px 150px 710px 85px;
 }  
 
 header{
     grid-column: 1/3;
     grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .movie-container{
