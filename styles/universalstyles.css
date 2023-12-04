@@ -34,10 +34,10 @@ h2{
 }
 
 .container{
-    text-align: center;
+    text-align: left;
     display: grid;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     column-gap: 6px;
     grid-template-columns: 90px 92px 92px 92px;
     z-index: 100;
