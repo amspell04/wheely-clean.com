@@ -15,7 +15,7 @@ h2{
  
 body{
     display: grid;
-    grid-template-rows:  80px 620px 550px 150px 670px 85px;
+    grid-template-rows:  80px 620px 550px 150px 710px 85px;
     background-color: whitesmoke;
 }  
 
