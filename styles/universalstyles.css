@@ -1,3 +1,7 @@
+body{
+    background-color: whitesmoke;
+}
+
 h1{
     font-size: 230%;
     font-family: "Bebas Neue";
@@ -20,29 +24,47 @@ h2{
 /* header */
 header{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 20px 1fr 1fr;
+    width: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    align-items: center;
     position: absolute;
- 
 }
 
 #wheely{
-    width: 120px;
-    margin-top: -8%;
+    width: 130px;
+    margin-left: 0px;
+    padding-bottom: 10px;
+    grid-column: 1/2;
 }
 
 .container{
-    padding-top: 5px;
     grid-column: 2/3;
-    display:grid;
     text-align: center;
+    display: grid;
     align-items: center;
+    justify-content: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    z-index: 100;
+}
+
+.one{
+    grid-column: 2/3;
+}
+
+.two{
+    grid-column: 3/4;
+}
+
+.three{
+    grid-column: 4/5;
 }
 
 .one, .two, .three{
-    margin:10px;
-    background-color: rgb(46, 45, 45);
-    padding: 18px;
+    margin-left:10px;
+    background-color: rgb(21, 21, 21);
+    padding: 16px;
     font-size: 120%;
     border-radius: 5px;
     color: white;
@@ -53,12 +75,12 @@ header{
 }
 
 .one:hover, .two:hover, .three:hover{
-    background-color:  rgb(60, 171, 235);
+    background-color: rgb(60, 171, 235);
     color:black;
 }
 
 .one:focus, .two:focus, .three:focus{
-    background-color:  rgb(60, 171, 235);
+    background-color: rgb(60, 171, 235);
     color:black;
 }
 
