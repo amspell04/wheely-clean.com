@@ -15,7 +15,7 @@ h2{
  
 body{
     display: grid;
-    grid-template-rows:  80px 650px 550px 8% 10% 700px 85px;
+    grid-template-rows:  80px 650px 550px 8% 9% 750px 85px;
     background-color: whitesmoke;
 }  
 
@@ -52,10 +52,6 @@ footer{
 /*front-page video display*/
 
 
-#wheely{
-    width: 120px;
-    margin-top: -8%;
-}
 
 #car-icon{
     width: 30px;
