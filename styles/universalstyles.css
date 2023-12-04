@@ -37,7 +37,8 @@ h2{
 
 
 .container{
-    width: 80%;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: left;
     display: grid;
     align-items: center;
