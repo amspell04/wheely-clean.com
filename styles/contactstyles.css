@@ -1,6 +1,6 @@
 body{
-
     display: grid;
+    padding: 0px;
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 80px 1fr 1fr 85px;
 }
@@ -158,13 +158,6 @@ input[type=email], select, textarea {
         font-family: "Bebas Neue";
         transition: background-color 400ms ease;
         text-decoration: none;
-    }
-
-    body{
-        padding: 20px;
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        grid-template-rows: 80px 1fr 85px;
     }
     
 
