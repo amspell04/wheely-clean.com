@@ -1,6 +1,5 @@
 body{
     display: grid;
-    padding: 0px;
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 80px 1fr 1fr 85px;
 }
@@ -138,7 +137,6 @@ input[type=email], select, textarea {
 
     body{
         display: grid;
-        padding: 0px;
         grid-template-columns: 1fr 1fr ;
         grid-template-rows: 80px 1fr 85px;
     }
