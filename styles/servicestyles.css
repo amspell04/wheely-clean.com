@@ -3,7 +3,7 @@
 body{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 80px 80px 1fr 200px 85px;
+    grid-template-rows: 80px auto 1fr 200px 85px;
 }
 
 
@@ -12,6 +12,13 @@ header{
     grid-column: 1/3;
 }
 
+.price-guide{
+    padding-top: 40px;
+    grid-row: 2/3;
+    grid-column: 1/3;
+    align-items: center;
+    justify-content: center;
+}
 
 .button{
     grid-row: 4/5;
@@ -46,13 +53,6 @@ footer{
 /* price-guide */
 
 
-.price-guide{
-    padding-top: 40px;
-    grid-row: 2/3;
-    grid-column: 1/3;
-    align-items: center;
-    justify-content: center;
-}
 
 #price-guide-header{
     font-size: 100%;

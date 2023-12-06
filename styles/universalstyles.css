@@ -101,6 +101,7 @@ footer{
 .foot{
     text-align: center;
     grid-column: 2/3;
+    padding-bottom: 20px;
 }
 
 #foot-text{
