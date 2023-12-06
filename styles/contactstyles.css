@@ -1,7 +1,7 @@
 body{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 80px 1fr 1fr 85px;
+    grid-template-rows: 80px 700px 700px 85px;
 }
 
 h1{

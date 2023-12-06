@@ -3,7 +3,7 @@
 body{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 80px 10px 1fr 200px 85px;
+    grid-template-rows: 80px 1fr 150px 80px;
 }
 
 
@@ -12,29 +12,15 @@ header{
     grid-column: 1/3;
 }
 
-/*
-.price-guide{
-    grid-row: 2/3;
-    grid-column: 1/3;
-    font-size: 100%;
-    font-family: "Bebas Neue";
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    letter-spacing: 2px;
-    text-align: center;
-    font-weight: lighter;
-
-}
-*/
-
 .button{
-    grid-row: 4/5;
+    grid-row: 3/4;
     grid-column: 1/3;
+    margin-top: 40px;
 }
 
 footer{
     padding: 0px;
-    grid-row: 5/6;
+    grid-row: 4/5;
     grid-column: 1/3;
 }
 
@@ -43,8 +29,9 @@ footer{
     display: flex;
     flex-direction: column ;
     justify-content: space-evenly;
-    padding:40px;
-    grid-row: 3/4;
+    padding-left:40px;
+    padding-right: 40px;
+    grid-row: 2/3;
     grid-column: 1/2;
 }
 
@@ -52,8 +39,9 @@ footer{
     display: flex;
     flex-direction: column ;
     justify-content: space-evenly;
-    padding: 40px;
-    grid-row: 3/4;
+    padding-left:40px;
+    padding-right: 40px;
+    grid-row: 2/3;
     grid-column: 2/3;
 }
 
