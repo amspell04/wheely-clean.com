@@ -3,7 +3,7 @@
 body{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 80px 900px 900px 250px 80px;
+    grid-template-rows: 80px 1fr 1fr 200px 80px;
 }
 
 
@@ -93,7 +93,7 @@ footer{
 .btn2{
     background-color: rgb(60, 171, 235);
     padding: 18px;
-    font-size: 180%;
+    font-size: 150%;
     border-radius: 6%;
     color: black;
     font-family: "Bebas Neue";
