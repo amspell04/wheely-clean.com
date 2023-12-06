@@ -89,9 +89,7 @@ h2{
 
 
 footer{
-    display: grid;
     background-image: linear-gradient(whitesmoke,  rgba(60, 171, 235, 0.774));
-    grid-template-columns: 1fr 1fr 1fr;
     height: 20vh;
     padding: 0px;
     margin: 0;
@@ -102,7 +100,8 @@ footer{
 }
 .foot{
     text-align: center;
-    grid-column: 2/3;
+    justify-content: center;
+    align-items: center;
 }
 
 #foot-text{
