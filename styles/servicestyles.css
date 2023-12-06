@@ -3,7 +3,7 @@
 body{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 80px 900px 900px 200px 80px;
+    grid-template-rows: 80px 900px 900px 250px 80px;
 }
 
 
@@ -20,8 +20,7 @@ header{
 .button{
     grid-row: 4/5;
     grid-column: 1/3;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 60px;
 }
 
 footer{
@@ -32,6 +31,7 @@ footer{
 
 
 .int{
+    margin-top: 40px;
     display: flex;
     flex-direction: column ;
     justify-content: space-evenly;
@@ -42,6 +42,7 @@ footer{
 }
 
 .ext{
+    margin-top: 40px;
     display: flex;
     flex-direction: column ;
     justify-content: space-evenly;
