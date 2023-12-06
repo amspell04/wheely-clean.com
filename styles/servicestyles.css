@@ -3,9 +3,14 @@
 body{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 80px 1fr 150px 80px;
+    grid-template-rows: 80px 600px 600px 150px 80px;
 }
 
+
+h1{
+    padding:0;
+
+}
 
 header{
     grid-row: 1/2;
@@ -13,14 +18,15 @@ header{
 }
 
 .button{
-    grid-row: 3/4;
+    grid-row: 4/5;
     grid-column: 1/3;
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 footer{
     padding: 0px;
-    grid-row: 4/5;
+    grid-row: 5/6;
     grid-column: 1/3;
 }
 
@@ -31,7 +37,7 @@ footer{
     justify-content: space-evenly;
     padding-left:40px;
     padding-right: 40px;
-    grid-row: 2/3;
+    grid-row: 2/4;
     grid-column: 1/2;
 }
 
@@ -41,7 +47,7 @@ footer{
     justify-content: space-evenly;
     padding-left:40px;
     padding-right: 40px;
-    grid-row: 2/3;
+    grid-row: 2/4;
     grid-column: 2/3;
 }
 
