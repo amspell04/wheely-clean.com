@@ -16,7 +16,7 @@ h2{
 body{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:  30px 730px 500px 150px 710px 85px;
+    grid-template-rows:  30px 730px 500px 150px 1fr 85px;
 }  
 
 header{
