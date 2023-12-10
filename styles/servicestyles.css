@@ -211,3 +211,13 @@ footer{
     }
    
 }
+
+@media(min-width: 800px){
+    .int{
+        font-size: 120%;
+    }
+
+    .ext{
+        font-size: 120%;
+    }
+}
