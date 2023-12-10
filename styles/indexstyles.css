@@ -263,7 +263,7 @@ footer{
     body{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows:  80px 780px 550px 150px  700px 85px;
+        grid-template-rows:  80px 780px 550px 150px  600px 85px;
         background-color: whitesmoke;
     }  
   
