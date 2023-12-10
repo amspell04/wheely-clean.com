@@ -137,7 +137,7 @@ input[type=email], select, textarea {
     body{
         display: grid;
         grid-template-columns: 1fr 1fr ;
-        grid-template-rows: 80px 1fr 85px;
+        grid-template-rows: 80px 700px 85px;
     }
     
 
@@ -175,6 +175,11 @@ input[type=email], select, textarea {
     .form-content{
         grid-row: 2/3;
         grid-column: 2/3;
+    }
+
+    footer{
+        grid-row: 3/4;
+        grid-column: 1/3;
     }
 
    
