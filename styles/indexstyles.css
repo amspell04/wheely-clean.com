@@ -2,6 +2,7 @@
 
 h1{
     text-decoration: none;
+    background-color: whitesmoke;
     
 }
 
@@ -119,31 +120,31 @@ footer{
 
 .row1{
     display: grid;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
     margin-bottom: 90px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 
 
   }
 
   .column1{
     grid-column: 1/2;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    border-style: solid;
-    border-top: 0px;
-    border-bottom: 0px;
-    border-left: 0px;
     font-size: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
   }
-  .column1-2{
+  .column2{
     grid-column: 2/3;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    font-size: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  .column3{
+    grid-column: 3/4;
     text-align: center;
     font-size: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

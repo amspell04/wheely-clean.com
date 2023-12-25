@@ -7,10 +7,10 @@ body{
 h1{
     font-size: 230%;
     font-family: "Bebas Neue";
-    text-decoration: underline;
     text-underline-offset: 4px;
     letter-spacing: 4px;
     text-align: center;
+    background-color: rgb(60, 171, 235);
     padding-bottom: 10px;
 }
 
