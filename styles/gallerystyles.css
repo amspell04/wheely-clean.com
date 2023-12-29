@@ -41,7 +41,24 @@ footer{
     grid-column: 1/2;
 }
 
+.insta{
+    display:flex;
+    align-items: flex-end;
+    justify-content: left;
+}
 
+#insta-text{
+    text-decoration: none;
+    color: #3cabeb;
+    font-family: "Bebas Neue";
+    font-size: 180%;
+}
+
+#insta-box{
+    width: 40px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
 
 .imgsg{
     width: 98%;

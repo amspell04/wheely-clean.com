@@ -17,7 +17,7 @@ h2{
 body{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:  30px 750px 1fr .5fr 1fr 85px;
+    grid-template-rows:  30px 750px 1fr .2fr 1fr 85px;
 }  
 
 header{
@@ -204,7 +204,7 @@ footer{
 
 .quote{
     display: flex;
-    margin-top: 80px;
+    margin-top: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -216,6 +216,7 @@ footer{
     padding: 25px;
     font-size: 180%;
     border-radius: 6%;
+    margin-bottom: 150px;
     font-family: "Bebas Neue";
     letter-spacing: 4px;
     font-weight: lighter;
