@@ -17,7 +17,7 @@ h2{
 body{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:  30px 1.3fr 1fr .5fr 1fr 85px;
+    grid-template-rows:  30px 1.1fr 1fr .5fr 1fr 85px;
 }  
 
 header{
