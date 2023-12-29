@@ -2,7 +2,7 @@
 
 h1{
     text-decoration: none;
-    background-color: whitesmoke;
+    background-color: transparent;
     
 }
 
@@ -17,7 +17,7 @@ h2{
 body{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:  30px 700px 600px 150px 750px 85px;
+    grid-template-rows:  30px 700px 700px 170px 750px 85px;
 }  
 
 header{
@@ -105,9 +105,19 @@ footer{
 /*services section*/
 
 .serv-icon{
-    width: 55px;
-    padding: 5px;
+    width: 80px;
+    padding: 1px;
+    transition: width 300ms;
 }
+
+.serv-icon:hover{
+    width:90px ;
+}
+
+.serv-icon:focus{
+    width:90px ;
+}
+
 
 #services-head, #review-head, #top-prof{
     font-weight: bold;
@@ -123,7 +133,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 90px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 100px 1fr 100px;
     grid-template-rows: 1fr 1fr 1fr;
 
 
@@ -136,7 +146,6 @@ footer{
     text-align: center;
     font-size: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
   }
 
   .column2{
@@ -203,8 +212,8 @@ footer{
 .btn2{
     background-color: #3cabeb;
     color: black;
-    padding: 18px;
-    font-size: 150%;
+    padding: 25px;
+    font-size: 180%;
     border-radius: 6%;
     font-family: "Bebas Neue";
     letter-spacing: 4px;
@@ -274,6 +283,16 @@ footer{
         grid-template-rows:  80px 700px 400px 150px  700px 85px;
         background-color: whitesmoke;
     }  
+
+    .row1{
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 90px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+
+      }
   
     .container{
         width: 100%;
@@ -311,7 +330,7 @@ footer{
     }
 
     .column1, .column2, .column3{
-        font-size: 120%;
+        font-size: 110%;
     }
 
     .column1{
