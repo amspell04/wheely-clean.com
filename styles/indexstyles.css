@@ -347,6 +347,16 @@ footer{
         grid-row: 1/2;
         grid-column: 3/4;
     }
+
+    .fill-form-bottom{
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 80%;
+        grid-row: 1/3;
+        grid-column: 2/4;
+    }
  
     
 }
@@ -359,7 +369,15 @@ footer{
         background-color: whitesmoke;
     }  
      
-  
+    .fill-form-bottom{
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 70%;
+        grid-row: 1/3;
+        grid-column: 2/4;
+    }
 }
 
 @media (min-width: 875px){
@@ -411,6 +429,16 @@ footer{
         margin-left: 40px;
         text-align: justify;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .fill-form-bottom{
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 60%;
+        grid-row: 1/3;
+        grid-column: 2/4;
     }
 
 }
@@ -478,6 +506,16 @@ footer{
         grid-template-rows: 1fr 1fr;
     }
 
+
+    .fill-form-bottom{
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 60%;
+        grid-row: 1/3;
+        grid-column: 2/4;
+    }
 
 }
 

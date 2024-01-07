@@ -86,14 +86,40 @@
         </div>
     </div>
 
+
     <footer>
         <div class="foot">
-            <img id="foot-wheely" src="img/Wheely-Clean.png" alt="wheely-clean logo">
-            <p id="foot-text">Copyright @ Wheely-Clean 2023</p>
+            <div id="footer-contact-text">
+                <h2 id="contact-header">Contact Us</h2>
+                <div class="contact-info">alexray@wheely-clean.com</div>
+                <div class="contact-info">(919)268-3949</div>
+                <div class="insta-footer">
+                <img id="insta-box-footer" src="img/Instagram_Glyph_Black.png" alt="instagram logo">
+                <a id="insta-text-footer" href="https://www.instagram.com/wheelycleanautodetailing/" target=”_blank”>@wheelycleanautodetailing</a>            </div>
+                </div>
+
+            <img id="foot-wheely" src="img/Wheely-Clean.png" alt="Wheely-clean logo">
+            <p id="foot-text">Copyright @ wheely-clean 2023</p>
+
+            <div class="fill-form-bottom">
+                <form action="https://formsubmit.co/Alexray2003@gmail.com" method="POST">
+
+                <input type="hidden" name="_subject" value="New Email for Wheely-Clean Service">
+                <label>Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Please enter your name.." required>
+                <input type="hidden" name="_next" value="website name here !!!">
+                <label>Email</label>
+                <input type="email" id="email" name="email" placeholder="Please enter your email.." required>
+                <label>Details</label>
+                <textarea name="subject" placeholder="Write something you would like to ask or tell Wheely-Clean.." style="height:100px" required></textarea>
+            
+                <input id="submit-btn" type="submit" value="Submit">
+            
+                </form>
+            </div>        
         </div>
 
     </footer>
-
 
 <script>
     AOS.init();

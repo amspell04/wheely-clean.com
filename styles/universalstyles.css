@@ -90,8 +90,8 @@ h2{
 
 footer{
     background-image: linear-gradient(whitesmoke,  rgba(60, 171, 235, 0.774));
-    height: 200%;
     padding: 0px;
+    height: 60vh;
     margin: 0;
     align-items: center;
     justify-content: center;
@@ -99,20 +99,152 @@ footer{
 
 }
 .foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:160px 200px 20px;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
 #foot-text{
+    grid-row: 3/4;
+    grid-column: 1/2;
     text-align: center;
-    font-size: 60%;
+    font-size: 70%;
     padding-top: 0px;
     margin-top: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #foot-wheely{
-    width: 7em;
-    margin-top: 5px;
+    display: block;
+    grid-column: 1/2;
+    grid-row: 2/3; 
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.fill-form-bottom{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    grid-row: 1/3;
+    grid-column: 2/4;
+}
+
+label{
+    margin-top: 20px;
+    font-size: 100%;
+    font-family: "Bebas Neue";
+    letter-spacing: 1px;
+    text-align: left;
+    font-weight: lighter;
+}
+
+
+input[type=text], select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+
+input[type=email], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+textarea{
+    width: 100%;
+    padding: 5px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    resize: vertical;
+}
+  
+
+  input[type=submit] {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 90%;
+    border-radius: 6%;
+    border: none;
+    font-family: "Bebas Neue";
+    letter-spacing: 2px;
+    font-weight: lighter;
+    transition: background-color 400ms ease;
+    text-decoration: none;
+}
+
+
+  input[type=submit]:hover, input[type=submit]:focus{
+    background-color: black;
+    color:whitesmoke;
+  }
+
+  .insta-footer{
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#insta-text-footer{
+    text-decoration: none;
+    color: black;
+    font-family: "Bebas Neue";
+    font-size: 100%;
+    letter-spacing: 1px;
+    display: flex;
+}
+
+#insta-text-footer:hover{
+    color:#3cabeb;
+}
+
+
+#insta-box-footer{
+    width: 20px;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+#contact-header{
+    text-align: center;
+    padding-left: 10px;
+
+}
+ 
+.contact-info{
+    text-decoration: none;
+    color: black;
+    font-family: "Bebas Neue";
+    font-size: 100%;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#footer-contact-text{
+    margin-top: 50px;
 }
