@@ -3,12 +3,12 @@
 h1{
     text-decoration: none;
     background-color: transparent;
-    
 }
 
 h2{
     text-align: center;
     font-weight: lighter;
+    font-size: 150%;
 }
 
 /*grid and placements*/ 
@@ -17,7 +17,7 @@ h2{
 body{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:  30px 750px 1fr .2fr 1fr 85px;
+    grid-template-rows:  30px 730px 580px 200px 1fr 85px;
 }  
 
 header{
@@ -87,7 +87,7 @@ footer{
 
 .background-img{
     grid-column: 1/4;
-    height: 100vh;
+    height: 105vh;
     width: 100%;
     background-image: linear-gradient(rgba(231, 222, 222, 0.627) 0%,rgba(2, 2, 7, 0.88)), url('../img/topwidestill.png');
     justify-content: flex-start;
@@ -105,7 +105,7 @@ footer{
 /*services section*/
 
 .serv-icon{
-    width: 80px;
+    width: 65px;
     padding: 1px;
     transition: width 300ms;
 }
@@ -132,12 +132,10 @@ footer{
     display: grid;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
     grid-template-columns: 100px 1fr 100px;
     grid-template-rows: 1fr 1fr 1fr;
-
-
-
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   .column1{
@@ -165,58 +163,25 @@ footer{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
   }
-/*image booth*/
 
-.image-booth{
-    background-color: rgba(60, 171, 235, 0.584);
-    display: grid;
-    text-align: center;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-
-.imgs{
-    width: 80%;
-    padding: 10px;
-    transition: .3s ease;
-}
-
-.imgs:hover{
-    opacity: .85;
-}
-
-.img-one{
-    grid-column: 1/2;
-    grid-row: 1/2
-
-}
-.img-two{
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-.img-three{
-    grid-column: 3/4 ;
-    grid-row: 1/2;
-}
 
 /* Quote Button */ 
 
 .quote{
     display: flex;
-    margin-top: 10px;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 
 .btn2{
     background-color: #3cabeb;
     color: black;
-    padding: 25px;
-    font-size: 180%;
+    padding: 20px;
+    font-size: 170%;
     border-radius: 6%;
-    margin-bottom: 150px;
     font-family: "Bebas Neue";
     letter-spacing: 4px;
     font-weight: lighter;
