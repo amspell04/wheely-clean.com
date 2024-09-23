@@ -29,45 +29,92 @@
 
     <div class="background-img">
 
-            <p id="over-vid">Wheely
-                <img id="car-icon" src="img/icons8-car-50-2.png" alt="car icon">
-                Clean
+            <p class="over-vid">Wheely-Clean
                 <br>
-                Mobile Detailing Services
+                <p class="over-vid2"> Mobile Detailing Services
+                </p>
+               
             </p>
         </div>
       
 </header>
 
+    <div class="logo">
+        <img class="wheely" src="img/Wheely-Clean.png" alt="wheely-clean logo">
+        <img class="wheely2" src="img/Wheely-Clean.png" alt="wheely-clean logo">
+        <img class="wheely" src="img/Wheely-Clean.png" alt="wheely-clean logo">
+        <img class="wheely2" src="img/Wheely-Clean.png" alt="wheely-clean logo">
+        <img class="wheely" src="img/Wheely-Clean.png" alt="wheely-clean logo">
+        <img class="wheely2" src="img/Wheely-Clean.png" alt="wheely-clean logo">
+        <img class="wheely" src="img/Wheely-Clean.png" alt="wheely-clean logo">
+        <img class="wheely2" src="img/Wheely-Clean.png" alt="wheely-clean logo">
+        <img class="wheely" src="img/Wheely-Clean.png" alt="wheely-clean logo">
+        <img class="wheely2" src="img/Wheely-Clean.png" alt="wheely-clean logo">
+        <img class="wheely" src="img/Wheely-Clean.png" alt="wheely-clean logo">
+        <img class="wheely2" src="img/Wheely-Clean.png" alt="wheely-clean logo">
+        <img class="wheely" src="img/Wheely-Clean.png" alt="wheely-clean logo">
+
+    </div>
+
     <section class="services">
-
-        <h1>Our services will..</h1>
-
-        <div class="row1">
-            <div class="column1">
-                <h2>Brighten Exteriors</h2>
-                <img class="serv-icon" src="img/car-blue.png" alt="icon of cleaning car">
-
-            </div>
-
-            <div class="column2">
-                <h2>Freshen Interiors</h2>
-                <img class="serv-icon" src="img/inside-blue.png" alt="icon of cleaning materials">
-
-            </div>
-
-            <div class="column3">
-                <h2>Exceed Additional Needs</h2>
-                <img class="serv-icon" src="img/tools.png" alt="icon of cleaning materials">
-            </div>
+        <div class="servicespic">
+            <img id="pic1" src="img/pors-back.jpeg" alt="picture of washed car">
         </div>
+     
+        <div class="serviceswords">
+            <h2>Our services will..</h2>
 
+            <h1>
+                <span id="changer">RESTORE VALUE</span>
+            </h1>
+        </div>
+      
     </section>
 
-    <div class="button">
-        <div class="quote">
-                <a href="services.html" class="btn2">See Service Details</a>
-            </div>
+    <div class="wrapped">
+        <h2>check out what we have to offer</h2>
+        <div class="slider">
+            <div class="box">
+                <div class="scrollbox">
+                    <a href="services.html" class="scroll">See Service Details</a>
+                </div>
+                <div class="scrollbox">
+                        <a href="services.html" class="scroll">See Service Details</a>
+                </div>
+                <div class="scrollbox">
+                    <a href="services.html" class="scroll">See Service Details</a>
+                </div>
+                <div class="scrollbox">
+                    <a href="services.html" class="scroll">See Service Details</a>
+                </div>
+                <div class="scrollbox">
+                    <a href="services.html" class="scroll">See Service Details</a>
+                </div>
+                <div class="scrollbox">
+                    <a href="services.html" class="scroll">See Service Details</a>
+                </div>
+            </div> 
+            <div class="box">
+                <div class="scrollbox">
+                    <a href="services.html" class="scroll">See Service Details</a>
+                </div>
+                <div class="scrollbox">
+                        <a href="services.html" class="scroll">See Service Details</a>
+                </div>
+                <div class="scrollbox">
+                    <a href="services.html" class="scroll">See Service Details</a>
+                </div>
+                <div class="scrollbox">
+                    <a href="services.html" class="scroll">See Service Details</a>
+                </div>
+                <div class="scrollbox">
+                    <a href="services.html" class="scroll">See Service Details</a>
+                </div>
+                <div class="scrollbox">
+                    <a href="services.html" class="scroll">See Service Details</a>
+                </div>
+            </div> 
+        </div>
     </div>
 
     <section class="about">
@@ -78,10 +125,10 @@
         </div>
         <div class="profile-item text">
             <h1>ABOUT</h1>
-            <p id="about-text">
+            <h3>
             Alex Ray, the dedicated proprietor of Wheely-Clean, has etched his mark in the Chapel Hill automotive
             detailing landscape. With a passion for restoring vehicles to their pristine glory, he embarked on his entrepreneurial journey to establish Wheely-Clean. 
-        </p>
+            </h3>
 
         </div>
     </section>
@@ -98,7 +145,6 @@
                 </div>
 
             <img id="foot-wheely" src="img/Wheely-Clean.png" alt="Wheely-clean logo">
-            <p id="foot-text">Copyright @ wheely-clean 2023</p>
 
             <div class="fill-form-bottom">
                 <form action="https://formsubmit.co/Alexray2003@gmail.com" method="POST">
@@ -122,3 +168,21 @@
 
     </body>
 </html>
+
+
+<script>
+    var words = ["BRIGHTEN EXTERIORS", "FRESHEN INTERIORS", "MAKE YOUR DAY"];
+    var i = 0;
+    var text = "RESTORE VALUE";
+    
+    function _getChangedText() {
+        i = (i + 1) % words.length;
+        return text.replace(/RESTORE VALUE/, words[i]);
+    }
+    
+    function _changeText() {
+        var txt = _getChangedText();
+        document.getElementById("changer").innerHTML = txt;
+    }
+    setInterval("_changeText()", 4000);
+    </script>

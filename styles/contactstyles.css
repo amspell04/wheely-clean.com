@@ -1,7 +1,8 @@
 body{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 80px 700px 700px 1fr;
+    background-color: #3cabeb;
+    grid-template-rows: 150px 800px 800px 1fr;
 }
 
 h1{
@@ -17,13 +18,21 @@ header{
     padding-right: 40px;
     grid-row: 3/4;
     grid-column: 1/3;
+    margin:40px;
+    border: 5px;
+    border-style: solid;
+    background-color: white;
 }
 
 .form-content{
     padding-left: 40px;
     padding-right: 40px;
     grid-row: 2/3;
+    margin:40px;
     grid-column: 1/3;
+    border: 5px;
+    border-style: solid;
+    background-color: white;
 }
 
 footer{
@@ -162,7 +171,7 @@ input[type=email], select, textarea {
     body{
         display: grid;
         grid-template-columns: 1fr 1fr ;
-        grid-template-rows: 80px 700px 85px;
+        grid-template-rows: 150px 800px 85px;
     }
     
 
@@ -170,27 +179,11 @@ input[type=email], select, textarea {
         text-align: center;
         display: grid;
         align-items: center;
-        justify-content: center;
         column-gap: 6px;
         grid-template-columns: 90px 92px 92px 92px;
         z-index: 100;
     }
 
-    .one, .two, .three{
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        background-color: rgb(21, 21, 21);
-        padding: 15px 18px;
-        font-size: 100%;
-        border-radius: 5px;
-        color: white;
-        letter-spacing: 1px;
-        font-family: "Bebas Neue";
-        transition: background-color 400ms ease;
-        text-decoration: none;
-    }
-    
 
     .contact-content{
         grid-row: 2/3;
