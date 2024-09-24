@@ -101,7 +101,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #3cabeb;
+    background-color: #80BBE9;
 }
 
 .wrapped{
@@ -127,7 +127,7 @@ footer{
 /*front-page video display*/
 
 .container{
-    background-image: linear-gradient(#3cabebc5, #b5b1b188);
+    background-image: linear-gradient(#80BBE9, #b5b1b188);
     margin-bottom: -120px;
 }
 
@@ -172,7 +172,7 @@ footer{
     grid-column: 1/4;
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(#e7dedea6 0%,#3cabebbb), url('../img/topwidestill.png');
+    background-image: linear-gradient(#e7dedea6 0%,#80BBE9), url('../img/topwidestill.png');
     justify-content: left;
     align-items:flex-end;
     background-position: 0 0, 50%, 70%;
@@ -206,7 +206,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3cabeb;
+    background-color: #80BBE9;
 }
 
 .servicespic{
@@ -298,7 +298,7 @@ footer{
 }
 
 .scroll:hover{
-    background-color: #3cabeb;
+    background-color: #80BBE9;
     color: black;
 }
 
@@ -313,7 +313,7 @@ footer{
 
 
 .btn2{
-    background-color: #3cabeb;
+    background-color: #80BBE9;
     color: black;
     padding: 20px;
     font-size: 170%;
@@ -334,7 +334,7 @@ footer{
 
 
 .about{
-    background-color: #3cabeb;
+    background-color: #80BBE9;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -384,7 +384,7 @@ footer{
 }
 
 
-@media (min-width: 600px){
+@media (min-width: 500px){
 
     body{
         display: grid;
@@ -422,7 +422,7 @@ footer{
     grid-column: 1/4;
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(#e7dedea6 0%,#3cabebbb), url('../img/topwidestill.png');
+    background-image: linear-gradient(#e7dedea6 0%,#80BBE9), url('../img/topwidestill.png');
     justify-content: left;
     align-items:flex-end;
     background-position: 0 0, 50%, 70%;

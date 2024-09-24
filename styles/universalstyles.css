@@ -10,7 +10,7 @@ h1{
     text-underline-offset: 4px;
     letter-spacing: 4px;
     text-align: center;
-    background-color: rgb(60, 171, 235);
+    background-color: #80BBE9;
     padding-bottom: 10px;
 }
 
@@ -52,7 +52,7 @@ h3{
     column-gap: 5px;
     grid-template-columns: 90px 80px 80px 80px;
     z-index: 100;
-    background-image: linear-gradient(rgba(245, 245, 245, 0.854) 30%, #3cabebfc);
+    background-image: linear-gradient(rgba(245, 245, 245, 0.854) 30%, #80BBE9);
 }
 
 #wheely{
@@ -87,18 +87,18 @@ h3{
 }
 
 .one:hover, .two:hover, .three:hover{
-    background-color: rgb(60, 171, 235);
+    background-color: #80BBE9;
     color:black;
 }
 
 .one:focus, .two:focus, .three:focus{
-    background-color: #3cabeb;
+    background-color: #80BBE9;
     color:black;
 }
 
 
 footer{
-    background-image: linear-gradient( #3cabebf9, whitesmoke);
+    background-image: linear-gradient( #80BBE9, whitesmoke);
     padding: 0px;
     height: 60vh;
     margin: 0;
@@ -227,7 +227,7 @@ textarea{
 }
 
 #insta-text-footer:hover{
-    color:#3cabeb;
+    color:#80BBE9;
 }
 
 
@@ -269,6 +269,6 @@ textarea{
         column-gap: 5px;
         grid-template-columns: 90px 80px 80px 80px;
         z-index: 100;
-        background-image: linear-gradient(rgba(245, 245, 245, 0.854) 30%, #3cabebfc);
+        background-image: linear-gradient(rgba(245, 245, 245, 0.854) 30%, #80BBE9);
     }
 }
