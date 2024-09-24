@@ -257,3 +257,18 @@ textarea{
 #footer-contact-text{
     margin-top: 50px;
 }
+
+@media (min-width: 600px){
+    .container{
+        width: 100%;
+        text-align: left;
+        display: grid;
+        align-items: center;
+        background-color: orange;
+        justify-content: left;
+        column-gap: 5px;
+        grid-template-columns: 90px 80px 80px 80px;
+        z-index: 100;
+        background-image: linear-gradient(rgba(245, 245, 245, 0.854) 30%, #3cabebfc);
+    }
+}

@@ -17,11 +17,13 @@ h2{
 body{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100vh 120px 1fr 200px 1fr 85px;
+    grid-template-rows: 95vh 120px 1fr 200px 1fr 85px;
 }  
 
 header{
     grid-column: 1/3;
+    margin:0;
+    padding: 0;
     grid-row: 1/2;
 }
 
@@ -126,15 +128,12 @@ footer{
 /*front-page video display*/
 
 .container{
-    width: 100%;
-    height: 100px;
     display: grid;
     background-image: linear-gradient(#3cabebc5, #b5b1b188);
     align-items: center;
-    margin-bottom: -100px;
+    margin-bottom: -120px;
     justify-content: left;
     column-gap: 6px;
-    grid-template-columns: 90px 92px 92px 92px;
     z-index: 100;
 }
 
@@ -158,8 +157,7 @@ footer{
     position: absolute;
     letter-spacing: 3px;
     word-spacing: 5px;
-    margin-bottom: 80px;
-    padding-bottom: 0;
+    padding-bottom: 100px;
     font-weight: bold;
     padding-left: 30px;
 }
@@ -172,8 +170,6 @@ footer{
     position: absolute;
     letter-spacing: 3px;
     word-spacing: 5px;
-    margin-bottom:30px;
-    padding-bottom: 0;
     font-weight: bold;
     padding-left: 30px;
 }
@@ -184,7 +180,7 @@ footer{
     width: 100%;
     background-image: linear-gradient(#e7dedea6 0%,#3cabebbb), url('../img/topwidestill.png');
     justify-content: left;
-    align-items: flex-end;
+    align-items:flex-end;
     background-position: 0 0, 50%, 70%;
     background-size: auto, cover;
     background-repeat: no-repeat;
@@ -395,8 +391,54 @@ footer{
 }
 
 
-@media (min-width: 650px){
+@media (min-width: 600px){
+
+    body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 95vh 120px 1fr 200px 1fr 85px;
+    }  
     
+    
+.over-vid{
+    color: #0a0808;
+    font-family: "Bebas Neue";
+    font-size: 400%;
+    z-index: 90;
+    position: absolute;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.over-vid2{
+    color: white;
+    font-family: "Bebas Neue";
+    font-size: 300%;
+    z-index: 90;
+    position: absolute;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.background-img{
+    grid-column: 1/4;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#e7dedea6 0%,#3cabebbb), url('../img/topwidestill.png');
+    justify-content: left;
+    align-items:flex-end;
+    background-position: 0 0, 50%, 70%;
+    background-size: auto, cover;
+    background-repeat: no-repeat;
+    display: flex;
+    margin:0;
+    padding:0;
+}
    
     
 }
@@ -422,6 +464,7 @@ footer{
         border-spacing: 2px ;
     
     }    
+
 }
 
 @media (min-width: 875px){
@@ -432,7 +475,7 @@ footer{
     body{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100vh 120px 1fr 200px 1fr 85px;
+        grid-template-rows: 95vh 120px 1fr 200px 1fr 85px;
     }  
    
     .pic{
@@ -452,7 +495,12 @@ footer{
 }
 
 @media (min-width: 1200px){
-
+    body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 95vh 120px 1fr 200px 1fr 85px;
+    }  
+    
 
    
 }
