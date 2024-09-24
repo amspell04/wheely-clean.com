@@ -128,13 +128,8 @@ footer{
 /*front-page video display*/
 
 .container{
-    display: grid;
     background-image: linear-gradient(#3cabebc5, #b5b1b188);
-    align-items: center;
     margin-bottom: -120px;
-    justify-content: left;
-    column-gap: 6px;
-    z-index: 100;
 }
 
 
@@ -152,12 +147,12 @@ footer{
 .over-vid{
     color: #0a0808;
     font-family: "Bebas Neue";
-    font-size: 400%;
+    font-size: 375%;
     z-index: 90;
     position: absolute;
     letter-spacing: 3px;
     word-spacing: 5px;
-    padding-bottom: 100px;
+    padding-bottom: 90px;
     font-weight: bold;
     padding-left: 30px;
 }
@@ -165,7 +160,7 @@ footer{
 .over-vid2{
     color: white;
     font-family: "Bebas Neue";
-    font-size: 300%;
+    font-size: 275%;
     z-index: 90;
     position: absolute;
     letter-spacing: 3px;
