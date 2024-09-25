@@ -3,7 +3,7 @@
 body{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 80px 100px 800px 1000px 1fr 300px 80px;
+    grid-template-rows: 80px 100px 900px 1100px 1fr 300px 80px;
     align-items: flex-start;
     background-color: #80BBE9;
 }
