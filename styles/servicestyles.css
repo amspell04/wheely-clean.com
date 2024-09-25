@@ -3,7 +3,7 @@
 body{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 80px 100px 1000px 1200px 1fr 300px 80px;
+    grid-template-rows: 80px 100px 1100px 1400px 1fr 300px 80px;
     align-items: flex-start;
     background-color: #80BBE9;
 }
@@ -212,6 +212,12 @@ footer{
     }
 }
 
+@media (min-width: 400px){
+    body{
+        grid-template-rows: 80px 100px 1000px 1200px 1fr 300px 80px;
+    }
+
+}
 
 @media (min-width: 500px){
     body{
