@@ -1,5 +1,4 @@
 body{
-    background-color: whitesmoke;
     padding: 0;
     margin: 0;
 }
@@ -52,7 +51,7 @@ h3{
     column-gap: 5px;
     grid-template-columns: 90px 80px 80px 80px;
     z-index: 100;
-    background-image: linear-gradient(rgba(245, 245, 245, 0.854) 30%, #80BBE9);
+    background-image: linear-gradient(rgb(214, 214, 214) 30%, #80BBE9);
 }
 
 #wheely{
@@ -269,6 +268,5 @@ textarea{
         column-gap: 5px;
         grid-template-columns: 90px 80px 80px 80px;
         z-index: 100;
-        background-image: linear-gradient(rgba(245, 245, 245, 0.854) 30%, #80BBE9);
     }
 }
