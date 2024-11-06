@@ -18,7 +18,7 @@ body{
     background-color: #80BBE9;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 95vh 120px 1fr 230px 1fr 85px;
+    grid-template-rows: 99.5vh 120px 1fr 230px 1fr 85px;
 }  
 
 header{
@@ -391,7 +391,7 @@ footer{
     body{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 95vh 120px 1fr 210px 1fr 85px;
+        grid-template-rows: 99.5vh 120px 1fr 210px 1fr 85px;
     }  
     
     
@@ -470,7 +470,7 @@ footer{
     body{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 95vh 120px 1fr 210px 1fr 85px;
+        grid-template-rows: 99.5vh 120px 1fr 210px 1fr 85px;
     }  
    
     .pic{
@@ -493,7 +493,7 @@ footer{
     body{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 95vh 120px 1fr 210px 1fr 85px;
+        grid-template-rows: 99.5vh 120px 1fr 210px 1fr 85px;
     }  
     
 
